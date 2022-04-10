@@ -1,6 +1,6 @@
 # SQL Data Analysis
 
-## 120 YEARS OF OLYMPICS HISTORY - ATHLETES AND RESULTS DATA EXPLORATION ##
+## 120 YEARS OF OLYMPIC HISTORY - ATHLETES AND RESULTS DATA EXPLORATION ##
 Data Source: https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results 
   
   *Note: athlete_events.csv file in Dataset folder was modified to get a more concise file - only 500 rows*
