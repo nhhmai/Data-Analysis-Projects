@@ -10,7 +10,7 @@ Written In: MYSQL WORKBENCH
 
 CREATE DATABASE olympics_info;
 
-DROP TABLE IF EXISTS olympics_history
+DROP TABLE IF EXISTS olympics_history;
 
 CREATE TABLE olympics_history (
 	id INT(5),
@@ -27,14 +27,14 @@ CREATE TABLE olympics_history (
 	city VARCHAR(255),
 	sport VARCHAR(255),
 	event VARCHAR(255),
-	medal VARCHAR(255))
+	medal VARCHAR(255));
 	
-DROP TABLE IF EXISTS olympics_history_noc_region
+DROP TABLE IF EXISTS olympics_history_noc_region;
 
 CREATE TABLE olympics_history_noc_region(
 	noc VARCHAR(5),
 	region VARCHAR(255),
-	notes VARCHAR(255))
+	notes VARCHAR(255));
 	
 /*Query 1: How many olympic games have been held so far?*/
 SELECT COUNT(DISTINCT games) AS total_olympic_games FROM olympics_history;
